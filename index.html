@@ -94,7 +94,7 @@
                         นางสาว
                     </label>
                     ชื่อ-นามสกุล
-                    <input placeholder="ชื่อ-นามสกุล" type="text" name="fname" id="fname"
+                    <input placeholder="ชื่อ-นามสกุล" type="Name" name="fname" id="fname"
                         onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                         pattern="[A-Za-z]{1,50}" required>
                 </p>
@@ -104,9 +104,9 @@
             <div class="col-lg-1"></div>
             <div class="col-lg">
                 <p>
-                    รหัสนักศึกษา (10หลัก) <input type="text" maxlength="10" name="text_plain"
+                    รหัสนักศึกษา (10หลัก) <input type="studentID" maxlength="10" name="text_plain"
                         onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}">
-                    โทรศัพท์มือถือ (10หลัก) <input type="text" maxlength="10" name="text_plain"
+                    โทรศัพท์มือถือ (10หลัก) <input type=" Phone" maxlength="10" name="text_plain"
                         onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}">
                 </p>
             </div>
@@ -139,7 +139,7 @@
             <div class="col-lg-1"></div>
             <div class="col-lg">
                 <p>
-                    สาขาวิชา <input type="text"
+                    สาขาวิชา <input type="Major"
                         onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                         pattern="[A-Za-z]{1,50}" required>
                     คณะ
@@ -209,7 +209,7 @@
             <div class="col-lg-6"></div>
             <div class="col-lg ">
                 <p> เขียนที่ บ้านเลขที่
-                    <input type="text" maxlength="10" name="text_plain" pattern="[0-9]{1,}" class="w-25"
+                    <input type="HNumber" maxlength="10" name="text_plain" pattern="[0-9]{1,}" class="w-25"
                         onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}" required>
                     หมู่ที่
                     <select class="custom-select" id="inputGroupSelect01" required>
@@ -231,11 +231,11 @@
                         <option value="15">15</option>
                     </select>
                     ตำบล
-                    <input type="text" name="fname" id="fname" class="w-25"
+                    <input type="Sub-District" name="fname" id="fname" class="w-25"
                         onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                         pattern="[A-Za-z]{1,50}" required>
                     <br> อำเภอ
-                    <input type="text" name="fname" id="fname" class="w-25"
+                    <input type="District" name="fname" id="fname" class="w-25"
                         onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                         pattern="[A-Za-z]{1,50}" required>
                     จังหวัด
@@ -320,9 +320,9 @@
                         <option value="จังหวัดยะลา ">จังหวัดยะลา </option>
                     </select>
                     <br>
-                    รหัสไปรษณีย์ <input type="text" maxlength="10" name="text_plain" pattern="[0-9]{1,}" class="w-25"
+                    รหัสไปรษณีย์ <input type="Pcode" maxlength="10" name="text_plain" pattern="[0-9]{1,}" class="w-25"
                         onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}" required>
-                    โทรศัพท์ <input type="text" maxlength="10" name="text_plain" pattern="[0-9]{1,}" class="w-25"
+                    โทรศัพท์ <input type="Phone" maxlength="10" name="text_plain" pattern="[0-9]{1,}" class="w-25"
                         onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}" required>
                 </p>
             </div>
@@ -402,7 +402,7 @@
                             นางสาว
                         </label>
                         ชื่อ-นามสกุล
-                        <input placeholder="ชื่อ-นามสกุล" type="text" name="fname" id="fname"
+                        <input placeholder="ชื่อ-นามสกุล" type="Name" name="fname" id="fname"
                             onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                             pattern="[A-Za-z]{1,50}" required>
                     </p>
@@ -413,9 +413,9 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg">
                     <p>
-                        รหัสนักศึกษา (10หลัก) <input type="text" maxlength="10" name="text_plain"
+                        รหัสนักศึกษา (10หลัก) <input type="studentID" maxlength="10" name="text_plain"
                             onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}">
-                        โทรศัพท์มือถือ (10หลัก) <input type="text" maxlength="10" name="text_plain"
+                        โทรศัพท์มือถือ (10หลัก) <input type="Phone" maxlength="10" name="text_plain"
                             onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}">
                     </p>
                 </div>
@@ -448,7 +448,7 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg">
                     <p>
-                        สาขาวิชา <input type="text"
+                        สาขาวิชา <input type="Major"
                             onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                             pattern="[A-Za-z]{1,50}" required>
                         คณะ
@@ -517,7 +517,7 @@
                                 นางสาว
                             </label>
                             ชื่อ-นามสกุล
-                            <input placeholder="ชื่อ-นามสกุล" type="text" name="fname" id="fname"
+                            <input placeholder="ชื่อ-นามสกุล" type="Name" name="fname" id="fname"
                                 onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                                 pattern="[A-Za-z]{1,50}" required>
                         </p>
@@ -543,7 +543,7 @@
                     <div class="col-lg-1"></div>
                     <div class="col-lg text-center">
                         ขอแสดงความนับถือ
-                        <br>(<label class="radio"></label><input placeholder="ลงชื่อ" type="text" name="fname"
+                        <br>(<label class="radio"></label><input placeholder="ลงชื่อ" type="Name" name="fname"
                             id="fname" class="text-center"
                             onKeyUp="if(!(isNaN(this.value))){ alert('เขียนตัวเลขไม่ได้'); this.value='';}"
                             pattern="[A-Za-z]{1,50}" required>)
@@ -564,7 +564,7 @@
                         5. เสนอคําร้องต่อประธานคณะกรรมการประจําหลักสูตร (คณะที่นักศึกษาสังกัด) <br>
                         6. เสนอคําร้องต่อคณบดี เพื่ออนุมัติ (คณะที่นักศึกษาสังกัด) <br>
                         7. นําคําร้องไปชําระเงิน (กองคลัง ชั้น 2 อาคารอิงคศรีกสิการ) <br>
-                        8. นําคําร้องขอลาพักการศึกษา ที่ชําระเงินแล้ว (ยื่นต่อกลุ่มภารกิจทะเบียนเรียนฯ)
+                        8. นําคําร้องขอลาพักการศึกษา ที่ชําระเงินแล้ว (ยื่นต่อกลุ่มภารกิจทะเบียนเรียนฯ) 
                         เพื่อบันทึกฐานข้อมูลนักศึกษาต่อไป <br>
                         9. เจ้าหน้าที่ทะเบียนฯ บันทึกลงฐานข้อมูล นักศึกษาสามารถตรวจสอบได้ในวันต่อไป
                     </div>
